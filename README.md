@@ -15,3 +15,7 @@
 # 版权
 本模板引用了[Font-awesome图标](http://www.fontawesome.com.cn/)，其他内容包括css均为原创，
 主题开源可以随意修改，但魔改后如要二次发布请通知作者~~我觉得没有谁会这么闲的)~~，最后**请保留版权信息！！！**
+
+# 演示
+http://daohang.cokewithice.com
+如果有哪些小伙伴愿意提供演示的话也很欢迎qwq
