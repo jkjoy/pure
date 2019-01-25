@@ -26,7 +26,8 @@ hr{
 	padding:10px;
 	margin-left:400px;
 	margin-right:400px;
-	margin-top:20px;
+	margin-top:50px;
+	margin-bottom:50px;
 	text-shadow:0 0 2px #808080;
 }
 .post-item a:hover{
@@ -48,14 +49,15 @@ hr{
 	font-size:38px;
 }
 .post-item p{
-	color:#bababa;
+	color:gray;
 	padding-left:30px;
+	text-shadow:0 0 0 white;
 }
 .head{
 	text-shadow:0 0 2px #808080;
     text-align:center;
 	margin-top:200px;
-	line-height:40px;
+	line-height:50px;
 }
 .head h1{
 	color:black;
@@ -83,21 +85,37 @@ hr{
 }
 .nav a:hover{
     background-color:#bababa;
-	color:white
+	color:white;
+	text-decoration:none
 }
 .head p{
 	margin-top:-30px;
 	font-size:20px;
 }
+.pageNav{
+	margin:40px;
+}
 .pageNav ul,li{
 	display:inline;
-	margin:10px;
+	margin:5px;
 }
 .pageNav{
 	text-align:center;
 	text-shadow:0 0 2px #808080;
 	color:#bababa;
-	margin-left:-30px
+	margin:0 auto
+}
+.pageNav li:hover{
+	background-color:#E6E6FA;
+}
+.pageNav li{
+    padding:15px;
+	font-size:20px;
+	padding-top:-5px;
+	padding-bottom:-5px
+}
+.pageNav a:hover{
+	text-decoration:none;
 }
 .footer{
 	text-align:center;
@@ -113,7 +131,7 @@ hr{
 	text-shadow:0 0 1px #808080;
 	font-size:20px;
 	line-height:35px;
-	letter-spacing:1.5px;
+	letter-spacing:2px;
 }
 .post-sum img{
 	-webkit-box-shadow:0 0 6px #808080;
@@ -127,11 +145,12 @@ hr{
 .post-sum p {
 	margin-left:15px;
 	margin-right:10px;
+	text-shadow:0 0 0 white;
 }
 .post-sum h2 {
 	border-left:6px solid black;
 	font-size:38px;
-	padding-left:10px;
+	padding:10px;
 }
 .post-sum h2:hover{
 	text-shadow:0 0 3px #808080;
@@ -142,6 +161,8 @@ hr{
 	font-size:16px;
 	background-color:#F8F8FF;
 	padding:1px;
+	letter-spacing:1.5px;
+	line-height:25px;
 }
 .post-sum pre{
 	border-radius:5px;
@@ -208,10 +229,11 @@ hr{
 }
 .comment-content{
 	margin-left:20px;
+	padding:10px;
 }
 .comment-reply{
-	border-bottom:1px solid black;
 	margin:5px;
+	border-bottom:1px solid black;
 }
 textarea{
 	resize:none;
@@ -266,17 +288,52 @@ textarea{
 	margin:0 auto;
 }
 .404 h1{
-	font-size:50px;
-	color:#bababa;
+	font-size:150px;
+	text-shadow:0 0 5px black;
     text-shadow:0 0 20px #808080;
 	font-family:微软雅黑;
 	margin-bottom:100px
-	
+}
+.404 h3{
+	margin-top:-100px
 }
 .404 a{
-	background-color:white;
+	background-color:black;
 	padding:20px;
 	font-size:20px;
-	border:1px solid #bababa 
+	border:3px solid black ;
+	color:white;
+	transition:all 0.3s;
+	margin-top:100px;
 }
-	
+.404 a:hover{
+	background-color:white;
+	text-decoration:none;
+	color:black;
+}
+.archives{
+	margin-top:100px;
+	letter-spacing:0;
+}
+.al_year{
+	font-size:40px;
+	border-left:8px solid black;
+	padding:8px;
+}
+.al_mon{
+	font-weight:bold;
+	font-size:30px
+}
+.al_post_list li{
+	display:block;
+	color:#bababa;
+	text-shadow:0 0 0 white;
+}
+.al_post_list a{
+	font-weight:normal;
+}
+.al_post_list{
+	border-left:1px solid #bababa;
+	padding:10px;
+	margin-left:40px;
+}
