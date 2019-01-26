@@ -15,7 +15,10 @@
   </script>
 <!-- copyright -->
 <p>Powered by <a href="http://typecho.org">Typecho</a> | Theme Pure by <a href="https://cokewithice.com">BigCoke</a>
+<?php $this->options->foot() ?>
 </div>
+
+
          <canvas id="canvas" style="position:fixed;top:0px;left:0px;z-index:1;opacity:0.5;z-index:-10000"></canvas>
         <script type="text/javascript">
            //获得canvas容器
@@ -66,3 +69,4 @@
           } 
           loop(); 
      </script>
+<?php $this->footer(); ?>

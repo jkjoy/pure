@@ -13,7 +13,7 @@ a{
 }
 a:hover{
 	color:#808080;
-	text-decoration:underline
+	text-decoration:none;
 }
 hr{
 	border:none;
@@ -34,11 +34,11 @@ hr{
 	text-decoration:none;
 }
 .post-item:hover{
-	transform:scale(1.1);
+	transform:scale(0.96);
 }
 .post-item h2{
 	color:black;
-	font-size:37px;
+	font-size:40px;
 	margin-top:10px;
 	border-bottom:2px solid #F1F1F1;
 	padding-bottom:5px
@@ -51,7 +51,9 @@ hr{
 .post-item p{
 	color:gray;
 	padding-left:30px;
+	padding-right:30px;
 	text-shadow:0 0 0 white;
+	line-height:23px;
 }
 .head{
 	text-shadow:0 0 2px #808080;
@@ -97,7 +99,6 @@ hr{
 }
 .pageNav ul,li{
 	display:inline;
-	margin:5px;
 }
 .pageNav{
 	text-align:center;
@@ -105,17 +106,22 @@ hr{
 	color:#bababa;
 	margin:0 auto
 }
-.pageNav li:hover{
-	background-color:#E6E6FA;
+.pageNav:hover{
+	color:white;
 }
 .pageNav li{
-    padding:15px;
 	font-size:20px;
 	padding-top:-5px;
 	padding-bottom:-5px
 }
+.pageNav a{
+	padding:15px;
+}
 .pageNav a:hover{
 	text-decoration:none;
+	color:white;
+	background-color:black;
+	color:white;
 }
 .footer{
 	text-align:center;

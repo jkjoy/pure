@@ -7,11 +7,15 @@
    <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('css/font-awesome.min.css'); ?>" />
   <!-- 引入end -->
   
+  <!-- 自定义头部 -->
+  <?php $this->options->head() ?>
+ 
+  
   <!-- 定义title -->
    <?php if ($this->is('index')): ?><!-- 页面为首页时 -->
-     <title><?php $this->options->title() ?></title>
+     <title><?php $this->options->title() ?> | <?php $this->options->about() ?></title>
    <?php else: ?><!-- 页面为其他页时 -->
-    <title><?php $this->title() ?> | <?php $this->options->title() ?></title>
+    <title><?php $this->title() ?> | <?php $this->options->about() ?></title>
    <?php endif; ?>
   <!-- title结束 -->
 
