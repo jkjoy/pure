@@ -1,6 +1,8 @@
 
 > Enjoy the beauty of pure things!
 
+**主题没人用，弃坑了不干了!  不过以后可能会诈尸更新**
+
 # 常见问题
 请到主题wiki查看。
 
