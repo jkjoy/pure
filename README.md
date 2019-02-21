@@ -32,11 +32,23 @@
 - 摘要文字字数修改为200字
 - 缩小了代码框的文字，~~变得更加容易排版~~
 
+# 已知bug
+- 自定义摘要判断方式有误，不定义摘要是不会自动拉取摘要
+
+解决方案：删除functions.php中的如下代码
+
+```
+function themeFields($layout) {
+    $excerpt = new Typecho_Widget_Helper_Form_Element_Text('excerpt', NULL, NULL, _t('自定义摘要'), _t('输入一句话作为显示在文章列表的摘要，不填写则直接读取文章前200字'));
+    $layout->addItem($excerpt);
+}
+```
+
+需要自定义摘要时就自行在文章页添加一个名为`excerpt`的字段，字段内容即为自定义摘要，不需要则不添加字段，自动拉取摘要。
 
 # 版权
 本模板引用了[Font-awesome图标](http://www.fontawesome.com.cn/)，其他内容包括css均为原创，
 主题开源可以随意修改，但魔改后如要二次发布请通知作者~~我觉得没有谁会这么闲的)~~，最后**请保留版权信息！！！**
 
 # 演示
-http://daohang.cokewithice.com
-这里的主题被我修改过，如果有哪些小伙伴愿意提供演示的话也很欢迎qwq
+目前技术原因无法提供演示（就是之前的演示站用来演示Mark主题了，然后懒得再弄一个~）
